@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5242D03FC5C1EAA4F817066052F80607 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+				AAD7D4593ED3B713FDA455F0E36487CE /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14C9AD75893D985D33276532D98E025C /* Pods-NewRetirementCalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6F3021D1CC310A358C6A3FACFA336C /* Pods-NewRetirementCalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D71B754C3E491BAB522C04246C9C77 /* Pods-NewRetirementCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1A1AF2D1491A396B495CA9DB18ADDE /* Pods-NewRetirementCalculator-dummy.m */; };
+		24DDB4FF8590FE75CBEB76DB68B2B7AA /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8FE1986920BC43E860EFBF2719121 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-dummy.m */; };
+		316BD45D58D72C346754C2237E9E60E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		509F73C185F52C7A6272561FFF4F4B10 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A72CC0C4E6595FDA507F304637E4CF /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6285A26D62A73B604262C0895AD5AFA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6357C285DB0ABEA1C38B6AF902291CA9 /* Pods-NewRetirementCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FE5FBF48B96212A3EFF4FB5F178834 /* Pods-NewRetirementCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F0B3AD33E7A5F5576A96FBC39ACA26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CAEEC74BC1D60FEDB490F38FADE625FB /* Pods-NewRetirementCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3704441A0DF45646C9921D226A1211D /* Pods-NewRetirementCalculatorTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0068499258B07EDE2B3C30D005199466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729762C073DDAC9D5B8729026D895DE6;
+			remoteInfo = "Pods-NewRetirementCalculator";
+		};
+		79C37A333874C4C2346210E05C928D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		B987A86AED6E78AA93D0B4AA8A419858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BFF679280FA66D6FBB2FBCCC285BFD /* Pods-NewRetirementCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRetirementCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		084B34FF1CB320C4139DB61A285DE488 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests"; path = Pods_NewRetirementCalculator_NewRetirementCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E036EB7BD9550D812B67F4A3DFB7F43 /* Pods-NewRetirementCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRetirementCalculator.modulemap"; sourceTree = "<group>"; };
+		1B0318B234CF73A1D766C31FADE0BF5C /* Pods-NewRetirementCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRetirementCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20F38A8B83E5326E11864D3B1AA5E2F9 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		39C8FE1986920BC43E860EFBF2719121 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		3A6F3021D1CC310A358C6A3FACFA336C /* Pods-NewRetirementCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRetirementCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+		3A7C66A6711B1C69C9546BF8002215D9 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D0CF4C8772C0B488AAD50FC8C8B195A /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
+		3E1A1AF2D1491A396B495CA9DB18ADDE /* Pods-NewRetirementCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRetirementCalculator-dummy.m"; sourceTree = "<group>"; };
+		3E8B613DA2F65DFE422C738BD638E73A /* Pods-NewRetirementCalculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRetirementCalculator"; path = Pods_NewRetirementCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E97D65BA35E9CCE933C7CC92354FAE /* Pods-NewRetirementCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRetirementCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		47FE2E6EFE316A3EC2E249C4D303F643 /* Pods-NewRetirementCalculatorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewRetirementCalculatorTests"; path = Pods_NewRetirementCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5203D38D03DAC578EAFCA1B75E3ED94A /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57A8B7887A84CAA76377E74B0B56389C /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		59FE5FBF48B96212A3EFF4FB5F178834 /* Pods-NewRetirementCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRetirementCalculator-umbrella.h"; sourceTree = "<group>"; };
+		72F1C87A91DD130F3F8462BC71DEC0D9 /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78EA978F92CAA263D6B3856C335AF3C6 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D58AB931CDEDF841487CBCBF26C50BD /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-Info.plist"; sourceTree = "<group>"; };
+		8C78396AC876F835D986ACAFC6E9E97E /* Pods-NewRetirementCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRetirementCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F1757BD04C742B22B630D5151037359 /* Pods-NewRetirementCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRetirementCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		930A2FB5629587B4E3A9FC51DB66DF61 /* Pods-NewRetirementCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRetirementCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9C90EEB1EEE3C4B219A5971D105692B /* Pods-NewRetirementCalculatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRetirementCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		B63EE3CE5C2E2FB47FCA48F4C823BF88 /* Pods-NewRetirementCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewRetirementCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B69D7A7B4C1622AD650EA2E030736707 /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
+		C39874D5A2964042B413F857C0520145 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
+		D024FDD6D97527CD1036848CD81D190B /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
+		D3704441A0DF45646C9921D226A1211D /* Pods-NewRetirementCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewRetirementCalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		D8A72CC0C4E6595FDA507F304637E4CF /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		E039AAFC7E20C4A1758D09A8960AA7D9 /* AppCenter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppCenter-xcframeworks.sh"; sourceTree = "<group>"; };
+		E39FB78BA8689E5D4115F4E4A0A48FFF /* Pods-NewRetirementCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRetirementCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F373EE30D620827E9C6D364FDACED9B8 /* Pods-NewRetirementCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewRetirementCalculator-Info.plist"; sourceTree = "<group>"; };
+		F96A7001FF8F89D5BB274FEB7126E1CF /* Pods-NewRetirementCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewRetirementCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35A1A78F819108B1BF20A316A1CCC89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F0B3AD33E7A5F5576A96FBC39ACA26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68E98FF90D83CEEAD8FF64BD146CC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6285A26D62A73B604262C0895AD5AFA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D24026E1779A2128BD2DAA7C61866F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316BD45D58D72C346754C2237E9E60E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F12EB3990610DCC281A741775A731B /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57A8B7887A84CAA76377E74B0B56389C /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.modulemap */,
+				78EA978F92CAA263D6B3856C335AF3C6 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-acknowledgements.markdown */,
+				20F38A8B83E5326E11864D3B1AA5E2F9 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-acknowledgements.plist */,
+				39C8FE1986920BC43E860EFBF2719121 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-dummy.m */,
+				7D58AB931CDEDF841487CBCBF26C50BD /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-Info.plist */,
+				D8A72CC0C4E6595FDA507F304637E4CF /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-umbrella.h */,
+				5203D38D03DAC578EAFCA1B75E3ED94A /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.debug.xcconfig */,
+				3A7C66A6711B1C69C9546BF8002215D9 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests";
+			path = "Target Support Files/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests";
+			sourceTree = "<group>";
+		};
+		0A3DEC4ABDB382DD3CE5CFF5E3D97D85 /* Pods-NewRetirementCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				0E036EB7BD9550D812B67F4A3DFB7F43 /* Pods-NewRetirementCalculator.modulemap */,
+				B63EE3CE5C2E2FB47FCA48F4C823BF88 /* Pods-NewRetirementCalculator-acknowledgements.markdown */,
+				8C78396AC876F835D986ACAFC6E9E97E /* Pods-NewRetirementCalculator-acknowledgements.plist */,
+				3E1A1AF2D1491A396B495CA9DB18ADDE /* Pods-NewRetirementCalculator-dummy.m */,
+				F373EE30D620827E9C6D364FDACED9B8 /* Pods-NewRetirementCalculator-Info.plist */,
+				59FE5FBF48B96212A3EFF4FB5F178834 /* Pods-NewRetirementCalculator-umbrella.h */,
+				F96A7001FF8F89D5BB274FEB7126E1CF /* Pods-NewRetirementCalculator.debug.xcconfig */,
+				930A2FB5629587B4E3A9FC51DB66DF61 /* Pods-NewRetirementCalculator.release.xcconfig */,
+			);
+			name = "Pods-NewRetirementCalculator";
+			path = "Target Support Files/Pods-NewRetirementCalculator";
+			sourceTree = "<group>";
+		};
+		2CBF7C46CDDA8CD7559B7885B6788126 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DEC4ABDB382DD3CE5CFF5E3D97D85 /* Pods-NewRetirementCalculator */,
+				05F12EB3990610DCC281A741775A731B /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */,
+				2DCC06A4D0E7BA083963554F28F9AE2E /* Pods-NewRetirementCalculatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DCC06A4D0E7BA083963554F28F9AE2E /* Pods-NewRetirementCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				03BFF679280FA66D6FBB2FBCCC285BFD /* Pods-NewRetirementCalculatorTests.modulemap */,
+				1B0318B234CF73A1D766C31FADE0BF5C /* Pods-NewRetirementCalculatorTests-acknowledgements.markdown */,
+				E39FB78BA8689E5D4115F4E4A0A48FFF /* Pods-NewRetirementCalculatorTests-acknowledgements.plist */,
+				D3704441A0DF45646C9921D226A1211D /* Pods-NewRetirementCalculatorTests-dummy.m */,
+				A9C90EEB1EEE3C4B219A5971D105692B /* Pods-NewRetirementCalculatorTests-Info.plist */,
+				3A6F3021D1CC310A358C6A3FACFA336C /* Pods-NewRetirementCalculatorTests-umbrella.h */,
+				8F1757BD04C742B22B630D5151037359 /* Pods-NewRetirementCalculatorTests.debug.xcconfig */,
+				41E97D65BA35E9CCE933C7CC92354FAE /* Pods-NewRetirementCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-NewRetirementCalculatorTests";
+			path = "Target Support Files/Pods-NewRetirementCalculatorTests";
+			sourceTree = "<group>";
+		};
+		2F2B7A9E8A3AFDF43FD838C02D566CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B69D7A7B4C1622AD650EA2E030736707 /* AppCenterAnalytics.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		80628813D3CD0FEE5C5016AAD2035BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B613DA2F65DFE422C738BD638E73A /* Pods-NewRetirementCalculator */,
+				084B34FF1CB320C4139DB61A285DE488 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */,
+				47FE2E6EFE316A3EC2E249C4D303F643 /* Pods-NewRetirementCalculatorTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847EBDDE94B66B5A82F61EB451C88447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3AAA61B16584A1E11774EB7B0ADCC /* AppCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85087D08E7B7C1D192737E810CB045D4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8CBBAACAA4138B66D82A6EAD676BFF28 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8A73CCCFE9DD339E100B629D77BED900 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2F2B7A9E8A3AFDF43FD838C02D566CD8 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		8CBBAACAA4138B66D82A6EAD676BFF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72F1C87A91DD130F3F8462BC71DEC0D9 /* AppCenter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B45CEB94D12F1AFCD73811CEF39A57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D024FDD6D97527CD1036848CD81D190B /* AppCenterCrashes.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B429B4E34BC53C308CEE01E3AB1A4C15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E039AAFC7E20C4A1758D09A8960AA7D9 /* AppCenter-xcframeworks.sh */,
+				3D0CF4C8772C0B488AAD50FC8C8B195A /* AppCenter.debug.xcconfig */,
+				C39874D5A2964042B413F857C0520145 /* AppCenter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		CCF3AAA61B16584A1E11774EB7B0ADCC /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8A73CCCFE9DD339E100B629D77BED900 /* Analytics */,
+				85087D08E7B7C1D192737E810CB045D4 /* Core */,
+				ED5E0372385F80256AD185B82982C57C /* Crashes */,
+				B429B4E34BC53C308CEE01E3AB1A4C15 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				847EBDDE94B66B5A82F61EB451C88447 /* Pods */,
+				80628813D3CD0FEE5C5016AAD2035BFC /* Products */,
+				2CBF7C46CDDA8CD7559B7885B6788126 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5E0372385F80256AD185B82982C57C /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				B3B45CEB94D12F1AFCD73811CEF39A57 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F40F5BCF4E9D181C041BBF5602C2A77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509F73C185F52C7A6272561FFF4F4B10 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A906963957C0ECC797BAB7F70B7EC8F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6357C285DB0ABEA1C38B6AF902291CA9 /* Pods-NewRetirementCalculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AD6BFE612A29DC5F4DC4424F251101 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C9AD75893D985D33276532D98E025C /* Pods-NewRetirementCalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47053CAB38E0EA5CA6262347A8736656 /* Pods-NewRetirementCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343B0FFC787E27738DCBBF5F8984C4F2 /* Build configuration list for PBXNativeTarget "Pods-NewRetirementCalculatorTests" */;
+			buildPhases = (
+				D4AD6BFE612A29DC5F4DC4424F251101 /* Headers */,
+				97F52732CB2EBDAB22F62ED7F9534468 /* Sources */,
+				B68E98FF90D83CEEAD8FF64BD146CC4C /* Frameworks */,
+				42AB1FE76A8C19177D7519921DD4ABD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AD1E4459D9323B2B2B30F14CF08B1C /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRetirementCalculatorTests";
+			productName = Pods_NewRetirementCalculatorTests;
+			productReference = 47FE2E6EFE316A3EC2E249C4D303F643 /* Pods-NewRetirementCalculatorTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		729762C073DDAC9D5B8729026D895DE6 /* Pods-NewRetirementCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB80A154068CA7B4D557ED2AB509CE40 /* Build configuration list for PBXNativeTarget "Pods-NewRetirementCalculator" */;
+			buildPhases = (
+				A906963957C0ECC797BAB7F70B7EC8F0 /* Headers */,
+				00F5AA77431AC843ED1EF2E558C3B072 /* Sources */,
+				35A1A78F819108B1BF20A316A1CCC89A /* Frameworks */,
+				590EA190E0B61907A04F0879F0000D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282780A4DE9AE15BAEE83084DEE56C0F /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRetirementCalculator";
+			productName = Pods_NewRetirementCalculator;
+			productReference = 3E8B613DA2F65DFE422C738BD638E73A /* Pods-NewRetirementCalculator */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD53BD1276CBB803728489D47E67C96A /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B77E06AD590F4649C081DF8DBA8C2DD /* Build configuration list for PBXNativeTarget "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests" */;
+			buildPhases = (
+				4F40F5BCF4E9D181C041BBF5602C2A77 /* Headers */,
+				19717639182C663908D7D985177989D3 /* Sources */,
+				D1D24026E1779A2128BD2DAA7C61866F /* Frameworks */,
+				B34B58723DD634834B47DFE6B0240321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC35AFEF071C123E94DB7F1D27B1B35 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests";
+			productName = Pods_NewRetirementCalculator_NewRetirementCalculatorUITests;
+			productReference = 084B34FF1CB320C4139DB61A285DE488 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 80628813D3CD0FEE5C5016AAD2035BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				729762C073DDAC9D5B8729026D895DE6 /* Pods-NewRetirementCalculator */,
+				FD53BD1276CBB803728489D47E67C96A /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests */,
+				47053CAB38E0EA5CA6262347A8736656 /* Pods-NewRetirementCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AB1FE76A8C19177D7519921DD4ABD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590EA190E0B61907A04F0879F0000D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34B58723DD634834B47DFE6B0240321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAD7D4593ED3B713FDA455F0E36487CE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F5AA77431AC843ED1EF2E558C3B072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D71B754C3E491BAB522C04246C9C77 /* Pods-NewRetirementCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19717639182C663908D7D985177989D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDB4FF8590FE75CBEB76DB68B2B7AA /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F52732CB2EBDAB22F62ED7F9534468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEEC74BC1D60FEDB490F38FADE625FB /* Pods-NewRetirementCalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282780A4DE9AE15BAEE83084DEE56C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = B987A86AED6E78AA93D0B4AA8A419858 /* PBXContainerItemProxy */;
+		};
+		AEC35AFEF071C123E94DB7F1D27B1B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 79C37A333874C4C2346210E05C928D1D /* PBXContainerItemProxy */;
+		};
+		D3AD1E4459D9323B2B2B30F14CF08B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NewRetirementCalculator";
+			target = 729762C073DDAC9D5B8729026D895DE6 /* Pods-NewRetirementCalculator */;
+			targetProxy = 0068499258B07EDE2B3C30D005199466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		254D97381EC0E871BC849489224EF38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1757BD04C742B22B630D5151037359 /* Pods-NewRetirementCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRetirementCalculatorTests/Pods-NewRetirementCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRetirementCalculatorTests/Pods-NewRetirementCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31FD037F8250E4F2D495D5FA8F5627E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0CF4C8772C0B488AAD50FC8C8B195A /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B6E10EA2ED9177A569C459B7E33B450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96A7001FF8F89D5BB274FEB7126E1CF /* Pods-NewRetirementCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRetirementCalculator/Pods-NewRetirementCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRetirementCalculator/Pods-NewRetirementCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6CB58255A3A923010F15434A5272847D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7C66A6711B1C69C9546BF8002215D9 /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B072CB519BC910CA8E973DE7A6ECFB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930A2FB5629587B4E3A9FC51DB66DF61 /* Pods-NewRetirementCalculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRetirementCalculator/Pods-NewRetirementCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRetirementCalculator/Pods-NewRetirementCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C97C80CFC56C186E23C567E1C1305F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E97D65BA35E9CCE933C7CC92354FAE /* Pods-NewRetirementCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRetirementCalculatorTests/Pods-NewRetirementCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRetirementCalculatorTests/Pods-NewRetirementCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE8787EFD4156E5F3C1BF3055612A8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39874D5A2964042B413F857C0520145 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2EC7057E822C94E172A6DB16CE2984D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5203D38D03DAC578EAFCA1B75E3ED94A /* Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests/Pods-NewRetirementCalculator-NewRetirementCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		343B0FFC787E27738DCBBF5F8984C4F2 /* Build configuration list for PBXNativeTarget "Pods-NewRetirementCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254D97381EC0E871BC849489224EF38B /* Debug */,
+				C97C80CFC56C186E23C567E1C1305F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B77E06AD590F4649C081DF8DBA8C2DD /* Build configuration list for PBXNativeTarget "Pods-NewRetirementCalculator-NewRetirementCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EC7057E822C94E172A6DB16CE2984D /* Debug */,
+				6CB58255A3A923010F15434A5272847D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5242D03FC5C1EAA4F817066052F80607 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FD037F8250E4F2D495D5FA8F5627E8 /* Debug */,
+				DE8787EFD4156E5F3C1BF3055612A8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB80A154068CA7B4D557ED2AB509CE40 /* Build configuration list for PBXNativeTarget "Pods-NewRetirementCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6E10EA2ED9177A569C459B7E33B450 /* Debug */,
+				B072CB519BC910CA8E973DE7A6ECFB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
