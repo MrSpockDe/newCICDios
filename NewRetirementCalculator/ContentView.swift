@@ -66,7 +66,7 @@ struct ContentView: View {
             }
             Button(action: {
                 hasCrashed = Crashes.hasCrashedInLastSession
-                result = "If you invest \(monthInvest) EUR every month for \(retireAge - age) years, and invest this money plus your current investment of \(currentInvest) EUR at an interest rate of \(interestRate)% you will have xxx EUR by your retirement age of \(retireAge)"
+                result = "If you invest \(monthInvest) EUR every month for \(retireAge - age) years, and invest this money plus your current investment of \(currentInvest) EUR at an interest rate of \(interestRate)% you will have xxxx EUR by your retirement age of \(retireAge)"
                 //Crashes.generateTestCrash()
                 }){
                     Text("Compute")
